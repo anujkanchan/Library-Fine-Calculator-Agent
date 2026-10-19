@@ -1,0 +1,21 @@
+
+# LangChain and agent workflow
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-ollama
+langgraph>=1.0,<2.0
+
+# Persistent graph memory with SQLite
+langgraph-checkpoint-sqlite
+
+# RAG and vector database
+langchain-chroma
+langchain-text-splitters
+chromadb
+
+# HTTP dependencies
+requests
+charset-normalizer
+
+# LangSmith hashing dependency
+xxhash
