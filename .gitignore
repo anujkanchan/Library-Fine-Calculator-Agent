@@ -1,10 +1,9 @@
-
 # Python virtual environments
-venv/
 .venv/
+venv/
 env/
 
-# Python cache files
+# Python generated files
 __pycache__/
 *.py[cod]
 
@@ -13,14 +12,10 @@ __pycache__/
 .env.*
 !.env.example
 
-# Local databases
-*.db
-*.sqlite
-*.sqlite3
+# IDE files
+.vscode/
+.idea/
 
-# Log files
+# Logs and temporary files
 *.log
-
-# Operating system files
 .DS_Store
-Thumbs.db

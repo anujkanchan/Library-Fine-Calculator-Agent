@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Library Fine Agent — TA2 (Unit 3 & 4)
 
 A multi-agent library fine calculation system built with Python and LangGraph. It combines **RAG-based policy retrieval, tool-based fine calculation, persistent conversation memory, member profiles, supervisor routing, and human approval for fine-waiver requests**.
@@ -566,3 +567,7 @@ These are potential enhancements, not claims that the current implementation alr
 The Library Fine Agent demonstrates a multi-agent workflow that combines policy retrieval, deterministic fine calculation, persistent memory, supervisor-based routing, and human approval.
 
 Its central design principle is to **retrieve policy facts, calculate only from supported rules, validate inputs, and require human approval for fine waivers**
+=======
+# Library-Fine-Calculator-Agent
+An Agentic AI Library Fine Calculator built with Python, LangChain, and Ollama (Qwen2.5:3B). Features include fine calculation tools, RAG-based library policy retrieval, SQLite conversation memory, multi-agent supervision with MAX_HOPS, and human approval for fine waivers.
+>>>>>>> 05f1be6277d9ab242a84167c2607f0807e300764
